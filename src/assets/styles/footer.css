@@ -1,0 +1,80 @@
+.footer-container {
+    background-color: #131722;
+    color: #d1d4dc;
+    padding: 2.5rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-description {
+    width: 75%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer-links-wrapper {
+    position: relative;
+    padding: 0 80px 10px 80px;
+}
+
+.footer-subscription-heading, .footer-subscription-text,
+.input-areas {
+    padding: 10px;
+}
+
+.footer-input {
+    margin-right: 50px;
+    border-radius: 5px;
+    border-color: #2196F3;
+    border-width: 3px;
+    padding: 8px;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links-wrapper, 
+.footer-links-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: -20px;
+}
+
+.footer-logo, .website-rights, 
+.social-icons {
+    padding: 0 80px 0 80px;
+}
+
+#footer-tt-logo, .social-icon-link {
+    color: #2196F3;
+    font-size: 20px;
+}
+
+.social-icon-link {
+    padding: 0 12px 10px 12px;
+}
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+.description-container {
+    height: 90vh;
+    width: 100%;
+    background-color: #131722;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+}
+
+.description-text {
+    width: 30%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -485px;
+    color: #d1d4dc;
+}
+
+.fa-quote-left {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: -60px;
+    font-size: 50px;
+    color: #2196F3;
+}
+
+.description-quote {
+    position: relative;
+    font-size: 34px;
+}
+
+.fa-quote-right {
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 385px;
+    font-size: 30px;
+    color: #2196F3;
+}
+
+.quote-author {
+    margin-left: 200px;
+    font-size: 25px;
+}
+
+.description-icons {
+    width: 30%;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: -475px;
+    color: #d1d4dc;
+}
+
+.fa-laptop {
+    position: absolute;
+    font-size: 320px;
+}
+
+.fa-mobile {
+    position: absolute;
+    font-size: 180px;
+    margin-top: 180px;
+    margin-left: 370px;
+}
+
+.fa-chart-line {
+    position: absolute;
+    font-size: 120px;
+    margin-top: 55px;
+    margin-left: 135px;
+    color: #2196F3;
+}
+
+.fa-lightbulb {
+    position: absolute;
+    z-index: 2;
+    font-size: 70px;
+    margin-top: 220px;
+    margin-left: 403px;
+    color: #2196F3;
+}
