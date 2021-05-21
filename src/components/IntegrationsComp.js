@@ -15,14 +15,21 @@ import trade_station from "../assets/images/trade_station.png"
 
 function IntegrationsComp() {
     return (
-        <>
+        <div className="integrations-cards-container">
             <h2 className="integrations-header">
                 Connect your brokerage account
             </h2>
+            
+            <span className="cards-background-grey" />
+
+            <span className="cards-background-blue-up" />
+
+            <span className="cards-background-blue-down" />
+
             <div className='cards'>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
-                        <ul className='cards__items'>
+                        <ul id="up_ul" className='cards__items'>
                             <IntegrationCard
                             src={oanda}
                             text='OANDA'
@@ -39,7 +46,7 @@ function IntegrationsComp() {
                             path='/sign-up'
                             />
                         </ul>
-                        <ul className='cards__items'>
+                        <ul id="down_ul" className='cards__items'>
                             <IntegrationCard
                             src={folionet}
                             text='Folionet'
@@ -59,7 +66,7 @@ function IntegrationsComp() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

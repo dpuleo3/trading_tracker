@@ -1,9 +1,18 @@
 import React from 'react'
+import {BrowserRouter as Router} from 'react-router-dom'
+
 import '../App.css';
 
-import Dashboard from '../components/Dashboard';
-import MetricsExample from '../components/MetricsExample';
-import ServicesComp from '../components/ServicesComp';
+import SideBar from '../components/experience/SideBar';
+import ExperienceDescp from '../components/ExperienceDescp';
+
+// import Dashboard from '../components/experience/Dashboard';
+// import MetricsExample from '../components/experience/MetricsExample';
+// import MetricsExample2 from '../components/experience/MetricsExample2';
+// import Breakdown from '../components/experience/Breakdown';
+// import Performance from '../components/experience/Performance';
+
+
 
 
 
@@ -12,14 +21,11 @@ export default function Experience() {
     return (
 
         <>
-            <h1 className="services-head">Stay ahead of the curve</h1>
-            <Dashboard />
-            <MetricsExample />
-            <ServicesComp />
-
+            <Router>
+                <SideBar />
+                
+            </Router>
+            <ExperienceDescp />
         </>
-    
     );
 }
-
-

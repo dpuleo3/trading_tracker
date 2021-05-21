@@ -1,14 +1,17 @@
 .metrics-container {
     width: 100%;
-    height: 70vh;
+    height: 60vh;
+    margin-top: -50px;
     position: relative; 
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #131722;
 }
 
 .table-wrapper > h3 {
     margin: 0 60px;
+    color: #d1d4dc;
 }
 
 .content-table {
@@ -18,7 +21,6 @@
     width: 80%;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 .content-table thead tr {
@@ -37,6 +39,10 @@
 .content-table tbody tr {
     text-align: center;
     border-bottom: 1px solid #131722;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+    background-color: #fff;
 }
 
 .content-table tbody tr:nth-of-type(even) {

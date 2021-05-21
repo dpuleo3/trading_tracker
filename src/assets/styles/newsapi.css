@@ -1,0 +1,17 @@
+.news-api-container {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.api-wrapper {
+    height: 90vh;
+    width: 100%;
+    background-color: #2196F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

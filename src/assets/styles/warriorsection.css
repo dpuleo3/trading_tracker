@@ -1,0 +1,63 @@
+.newsletter-container {
+    height: 75vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-wrapper {
+    height: 90%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-title {
+    width: 32%;
+}
+
+.newsletter-title > p {
+    color: #131722;
+    font-size: 65px;
+}
+
+p.more {
+    font-size: 100px;
+    color: #2196F3;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 140px;
+}
+
+.newsletter-btn {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 25px;
+}
+
+.newsletter-image-wrapper {
+    width: 35%;
+    height: 100%;
+    position: relative;
+}
+
+.screen {
+    position: absolute;
+    margin-left: 81px;
+    margin-top: 72px;
+    height: 330px;
+    width: 515px;
+    z-index: 2;
+}
+
+.macbook {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 50px;
+    height: 475px;
+    z-index: 1;
+}

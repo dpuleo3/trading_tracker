@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
 
-import NewsletterComp from '../components/NewsletterComp';
-
+import WarriorSection from '../components/WarriorSection';
+import NewsAPI from '../components/NewsAPI';
 
 
 export default function Newsletter() {
@@ -10,8 +10,9 @@ export default function Newsletter() {
     return (
 
         <>
-            <h1 className="newsletter-header">Newsletter</h1>
-            <NewsletterComp />
+            
+            <WarriorSection />
+            <NewsAPI />
 
         </>
     );

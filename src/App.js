@@ -10,6 +10,7 @@ import Experience from './pages/Experience';
 
 import Newsletter from './pages/Newsletter';
 import SignUp from './pages/SignUp';
+import Integrations from './pages/Integrations';
 
 
 
@@ -24,13 +25,13 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/experience' exact component={Experience} />
           
+          <Route path='/integrations' exact component={Integrations} />
           <Route path='/newsletter' exact component={Newsletter} />
           <Route path='/sign-up' exact component={SignUp} />
 
         </Switch>
         <Footer />
       </Router>
-
     </>
 
   );

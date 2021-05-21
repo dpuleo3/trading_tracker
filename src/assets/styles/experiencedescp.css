@@ -1,0 +1,13 @@
+.exp-descp-container {
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.phones-wrapper {
+    width: 25%;
+    height: 80%;
+}

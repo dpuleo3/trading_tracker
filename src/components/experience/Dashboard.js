@@ -1,9 +1,8 @@
 import React from 'react'
-import '../assets/styles/dashboard.css'
+import './../../assets/styles/dashboard.css'
 
 import { Doughnut } from 'react-chartjs-2';
 import { Bar } from 'react-chartjs-2'
-
 
 
 
@@ -51,6 +50,23 @@ function Dashboard() {
                             </tr>
                         </tbody>
                     </table>
+                    <div className="balance-breakdown">
+                        <Doughnut data={{
+                            labels: [
+                                'Positions',
+                                'Cash',
+                            ],
+                            datasets: [{
+                                label: 'Balance Breakdown',
+                                data: [85, 15],
+                                backgroundColor: [
+                                '#2196F3',
+                                '#d1d4dc'
+                                ],
+                                hoverOffset: 2
+                            }]
+                        }} />
+                    </div>
                 </div>
                 <div className="portfolio-stats-wrapper">
                     <table className="portfolio-stats">
@@ -108,23 +124,6 @@ function Dashboard() {
                         </tbody>
                     </table>
                 </div>
-                <div className="balance-breakdown-wrapper">
-                    <Doughnut data={{
-                        labels: [
-                            'Positions',
-                            'Cash',
-                        ],
-                        datasets: [{
-                            label: 'Balance Breakdown',
-                            data: [85, 15],
-                            backgroundColor: [
-                            '#2196F3',
-                            '#d1d4dc'
-                            ],
-                            hoverOffset: 2
-                        }]
-                    }} />
-                </div>
             </div>
             <div className="right-side">   
                 <div className="live-performance-wrapper">
@@ -154,8 +153,6 @@ function Dashboard() {
                             },
                         ],
                         }}
-                        // height={400}
-                        // width={600}
                         options={{
                         maintainAspectRatio: false,
                         scales: {

@@ -1,0 +1,59 @@
+.power-container {
+    width: 100%;
+    height: 88vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.power-background {
+    width: 100%;
+    height: 85%;
+    background-color: #2196F3;
+    margin-top: -100px;
+}
+
+.power-preview-wrapper {
+    width: 50%;
+    height: 65%;
+    margin-top: -50px;
+}
+
+.power-text-wrapper {
+    margin-left: 200px;
+}
+
+.power-button {
+    margin-left: 320px;
+    margin-top: 50px;
+}
+
+.power-title {
+    font-size: 100px;
+    color: #fff;
+}
+
+.power-subtitle {
+    font-size: 50px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.phone-wrapper {
+    position: absolute;
+    width: 35%;
+    margin-top: 80px;
+    margin-left: -650px;
+}
+
+.single-phone {
+    width: 340px;
+    z-index: 2;
+}
+
+.power-preview-wrapper {
+    position: absolute;
+    z-index: 2;
+}

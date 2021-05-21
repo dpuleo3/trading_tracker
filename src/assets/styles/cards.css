@@ -1,5 +1,5 @@
 .cards-container {
-    height: 176vh;
+    height: 170vh;
     width: 100%;
     background-color: #fff;
     position: relative; 
@@ -9,7 +9,8 @@
 }
 
 .card-group {
-    width: 70%;
+    width: 65%;
+    margin-top: -20px;
 }
 
 .card {

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/styles/metricsexample.css'
+import './../../assets/styles/metricsexample.css'
 
 
 function MetricsExample() {
