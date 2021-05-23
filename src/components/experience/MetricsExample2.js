@@ -8,7 +8,6 @@ function MetricsExample2() {
     return (
         
         <div className="metrics2-contaner">
-            <h3>Montlhy Metrics</h3>
             <div className="metrics2-tables-wrapper">
                 <div className="tables-left-wrapper">
                     <table className="trades-ratio">
@@ -65,6 +64,7 @@ function MetricsExample2() {
                     </table>
                 </div>
                 <div className="tables-right-wrapper">
+                    <h2 className="gains-loss-month">April</h2>
                     <div className="gains-data">
                         <table className="gains-data-table">
                             <thead>
@@ -191,9 +191,6 @@ function MetricsExample2() {
                             </tbody>
                         </table>
                     </div>
-                </div>
-                <div className="metrics-add-space">
-                    <h1>Add</h1>
                 </div>
             </div>
     

@@ -1,36 +1,17 @@
 .breakdown-container {
-    height: 88vh;
+    height: 100%;
     width: 100%;
-    background-color: #131722;
     position: relative; 
     display: flex;
-    justify-content: center; 
-}
-
-.breakdown-title {
-    color: #d1d4dc;
-    margin: 30px 0 15px -1100px;
-    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
 }
 
 .breakdown-graph-wrapper {
-    width: 35%;
-    height: 105%;
+    width: 40%;
+    height: 100%;
     position: absolute;
-    margin-top: 80px;
-    margin-left: -550px;
-
+    margin-top: 65px;
 }
 
-.breakdown-quote-wrapper {
-    width: 30%;
-    margin-top: 125px;
-    margin-left: 520px;
-    position: absolute;
-    color: #d1d4dc;
-    font-size: 36px;
-}
-
-.breakdown-quote-wrapper > .fa-quote-right {
-    margin-left: 150px;
-}

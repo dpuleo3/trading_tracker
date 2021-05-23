@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/styles/performance.css'
+import './../../assets/styles/performance.css'
 
 import { Line } from 'react-chartjs-2';
 
@@ -7,7 +7,6 @@ function Performance() {
     return (
 
         <div className="performance-container">
-            <h3 className="performance-title">Performance</h3>
             <div className="performance-chart-wrapper">
                 <Line data = {{
                     labels: ['Q1', 'Q2', 'Q3', 'Q4', 'Q1', 'Q2', 'Q3', 'Q4', 'Q1'],

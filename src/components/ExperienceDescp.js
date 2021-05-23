@@ -2,7 +2,9 @@ import React from 'react'
 import phones from "../assets/images/phones.png"
 
 import * as FaIcons from 'react-icons/fa';
-import * as FcIcons from 'react-icons/fc';
+import * as BiIcons from 'react-icons/bi';
+import * as HiIcons from 'react-icons/hi';
+import * as MdIcons from 'react-icons/md';
 
 import '../assets/styles/experiencedescp.css'
 
@@ -13,26 +15,26 @@ function ExperienceDescp() {
             <div className="left-cards-wrapper">
                 <div className="overview-icon">
                     <div className="icon-wrapper">
-                        <FaIcons.FaChalkboardTeacher />
+                        <BiIcons.BiLayerPlus />
                     </div>
                     <p> 
-                        Have easy access to all of your operations
+                        No more filling spreadsheets
                     </p>
                 </div>
                 <div className="overview-icon">
                     <div className="icon-wrapper">
-                        <FcIcons.FcCandleSticks />
+                        <HiIcons.HiReceiptTax />
                     </div>
                     <p> 
-                        Track your trading performace
+                        Taxation reports always ready for you
                     </p>
                 </div>
                 <div className="overview-icon">
                     <div className="icon-wrapper">
-                        <FaIcons.FaRocket />
+                        <FaIcons.FaUnlockAlt />
                     </div>
                     <p> 
-                        Get a better view of your portfolios
+                        Grant access to staff and clients
                     </p>
                 </div>
             </div>
@@ -42,26 +44,26 @@ function ExperienceDescp() {
             <div className="right-cards-wrapper">
                 <div className="overview-icon">
                     <div className="icon-wrapper">
-                        <FaIcons.FaChalkboardTeacher />
+                        <MdIcons.MdPhonelink />
                     </div>
                     <p> 
-                        Have easy access to all of your operations
+                        Track your portfolio from everywhere
                     </p>
                 </div>
                 <div className="overview-icon">
                     <div className="icon-wrapper">
-                        <FcIcons.FcCandleSticks />
+                        <BiIcons.BiShareAlt />
                     </div>
                     <p> 
-                        Track your trading performace
+                        Share your performance with other
                     </p>
                 </div>
                 <div className="overview-icon">
                     <div className="icon-wrapper">
-                        <FaIcons.FaRocket />
+                        <FaIcons.FaPencilAlt />
                     </div>
                     <p> 
-                        Get a better view of your portfolios
+                        Follow other traders and portfolios
                     </p>
                 </div>
             </div>

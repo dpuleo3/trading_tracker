@@ -1,5 +1,5 @@
 .complete-experience-container {
-    height: 95vh;
+    height: 85vh;
     width: 100%;
 }
 
@@ -65,4 +65,16 @@
 
 .sidebar-wrapper {
     width: 100%;
+}
+
+.experience-display-wrapper {
+    position: relative;
+    margin-top: -550px;
+    z-index: -1;
+}
+
+.experience-display {
+    width: 80%;
+    margin-left: 210px;
+    position: absolute;
 }

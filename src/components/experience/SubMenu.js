@@ -28,20 +28,20 @@ const SubMenu = ({item}) => {
                     </div>
                 </div>        
             </Link>
-            <Link>
+            <div>
                 {subnav && item.subNav.map((item, index) => {
                     return (
-                    <div className="dropdown-link" to={item.path} key={index}>
+                    <Link className="dropdown-link" to={item.path} key={index}>
                         <div className="suvmenu-link-icon">
-                                {item.icon}
-                            </div>
+                            {item.icon}
+                        </div>
                         <div className="suvmenu-link">
                             {item.title}
                         </div>
-                    </div>
+                    </Link>
                 );
                 })}
-            </Link>
+            </div>
         </>
     )
 }

@@ -9,8 +9,8 @@ import { Bar } from 'react-chartjs-2'
 function Dashboard() {
 
     return (
+        
         <div className="dashboard-container">
-            <h3>Dashboard</h3>
             <div className="left-side">
                 <div className="portfolio-balances-wrapper">
                     <table className="portfolio-balances">
@@ -70,7 +70,7 @@ function Dashboard() {
                 </div>
                 <div className="portfolio-stats-wrapper">
                     <table className="portfolio-stats">
-                    <thead>
+                        <thead>
                             <tr>
                                 <th colspan="2">Portfolio Stats</th>
                             </tr>
@@ -85,7 +85,7 @@ function Dashboard() {
                                 <td>24</td>
                             </tr>
                             <tr>
-                                <td className="table-text">AVG Share Cost</td>
+                                <td className="table-text">Average Share Cost</td>
                                 <td>$61.24</td>
                             </tr>
                             <tr>
@@ -172,10 +172,7 @@ function Dashboard() {
                         }}
                     />
                 </div>
-            </div>
-            <div className="add-space">
-                <h1>Add</h1>
-            </div>     
+            </div>    
         </div>
     )
 }

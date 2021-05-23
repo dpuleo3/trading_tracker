@@ -20,7 +20,7 @@ export const SideBarData = [
     subNav: [
       {
         title: 'Dashboard',
-        path: '/live-view/dashboard',
+        path: '/experience/live-view/dashboard',
         icon: <RiIcons.RiDashboardFill />
       },
       {
@@ -59,7 +59,18 @@ export const SideBarData = [
   {
     title: 'Breakdown',
     path: '/breakdown',
-    icon: <BiIcons.BiDoughnutChart />
+    icon: <BiIcons.BiDoughnutChart />,
+
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+
+    subNav: [
+      {
+        title: 'Balances',
+        path: '/breakdown/balances',
+        icon: <BiIcons.BiDoughnutChart />
+      },
+    ]
   },
   {
     title: 'Performance',

@@ -8,7 +8,6 @@ function MetricsExample() {
 
         <div className="metrics-container">
             <div className="table-wrapper">
-                <h3>Monthly Tracker</h3>
                 <table className="content-table">
                     <thead>
                         <tr>

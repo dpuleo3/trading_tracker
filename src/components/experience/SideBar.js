@@ -12,8 +12,6 @@ import SubMenu from './SubMenu';
 
 function SideBar({ children }) {
 
-
-
     return (
         <div className="complete-experience-container">
             <nav className="horizontal-sidebar-nav">
@@ -46,8 +44,10 @@ function SideBar({ children }) {
                     })}
                 </div>    
             </div> 
-            <div className="hola">
-                    HOLA
+            <div className="experience-display-wrapper">
+                <div className="experience-display">
+                    {children}
+                </div>
             </div>
         </div>
     )
