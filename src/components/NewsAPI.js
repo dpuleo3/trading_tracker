@@ -35,6 +35,7 @@ function NewsAPI() {
     return (
 
         <div className="news-api-container">
+            <span className="news-api-background" />
             <div className="news-search">
                 <div className="news-icon">
                     <FaIcons.FaSearch />

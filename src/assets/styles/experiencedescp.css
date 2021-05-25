@@ -5,12 +5,14 @@
     position: relative;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
 }
 
 .phones-wrapper {
     width: 25%;
     height: 80%; 
     position: relative;
+    z-index: 2;
 }
 
 .phones-wrapper > img {

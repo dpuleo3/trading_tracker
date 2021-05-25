@@ -14,6 +14,7 @@ function SideBar({ children }) {
 
     return (
         <div className="complete-experience-container">
+            <div className="experience-background">
             <nav className="horizontal-sidebar-nav">
                 <div className="sidebar-nav-title" to="#" >
                     <h3>Trading Tracker</h3>
@@ -48,6 +49,7 @@ function SideBar({ children }) {
                 <div className="experience-display">
                     {children}
                 </div>
+            </div>
             </div>
         </div>
     )

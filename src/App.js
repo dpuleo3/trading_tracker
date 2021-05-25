@@ -27,7 +27,7 @@ function App() {
           
           <Route path='/integrations' exact component={Integrations} />
           <Route path='/newsletter' exact component={Newsletter} />
-          <Route path='/sign-up' exact component={SignUp} />
+          <Route path='/sign_up' exact component={SignUp} />
 
         </Switch>
         <Footer />

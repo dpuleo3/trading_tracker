@@ -1,6 +1,7 @@
 import React from 'react'
 import '../App.css'
 import { Button } from './Button'
+
 import trading_video from "../assets/videos/trading_video.mp4"
 import '../assets/styles/herosection.css'
 

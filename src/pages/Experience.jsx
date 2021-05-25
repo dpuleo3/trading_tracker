@@ -3,6 +3,8 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 import '../App.css';
 
+import SuperSection from '../components/experience/SuperSection';
+
 import SideBar from '../components/experience/SideBar';
 import {SideBarData} from '../components/experience/SideBarData';
 
@@ -13,8 +15,6 @@ import Breakdown from '../components/experience/Breakdown';
 import Performance from '../components/experience/Performance';
 
 import ExperienceDescp from '../components/ExperienceDescp';
-import PresentationCard from '../components/PresentationCard';
-
 
 
 export default function Experience() {
@@ -22,6 +22,7 @@ export default function Experience() {
     return (
 
         <Router>
+                <SuperSection />
             <SideBar >
                 <Switch>
                     <Route path={ SideBarData[0].subNav[0].path} component={Dashboard} />
@@ -32,7 +33,6 @@ export default function Experience() {
                 </Switch>
             </SideBar>
                 <ExperienceDescp />
-                <PresentationCard />
         </Router>
     );
 }
