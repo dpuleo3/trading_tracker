@@ -1,9 +1,9 @@
 import React from 'react'
 
+import * as FaIcons from 'react-icons/fa';
+
 import { Button } from './Button'
 import '../assets/styles/signupcomp.css'
-
-import presentation_photo from './../assets/images/presentation_photo.png'
 
 
 function SignUpComp() {
@@ -14,12 +14,15 @@ function SignUpComp() {
             <div className="presentation-card-text">
                 <p>
                     Want the best 
-                    <p className="presentation-card-text-black"> 
+                    <p className="presentation-card-text-blue"> 
                         Presentation Card ?
                     </p>
                 </p>
+                <div className="presentation-card-icon">
+                    <FaIcons.FaRegIdCard />
+                </div>
             </div>
-            <div className="presentation-card-wrapper">
+            <div className="presentation-card-wrapper" >
                 <div className="sign-up-form-wrapper">
                     <div className="sign-up-header">
                         Register

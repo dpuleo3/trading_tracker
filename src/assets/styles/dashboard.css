@@ -15,7 +15,7 @@
 }
 
 .portfolio-balances-wrapper,
-.portfolio-stats-wrapper  {
+.portfolio-stats-wrapper {
     width: 100%;
     height: 55%;
     position: absolute; 
@@ -54,6 +54,8 @@ th {
     font-size: 1.2em;
 }
 
+
+
 td {
     text-align: center;
 }
@@ -82,5 +84,5 @@ tbody tr:last-of-type {
 .live-performance-wrapper {
     position: absolute;
     width: 100%;
-
+    height: 100%;
 }

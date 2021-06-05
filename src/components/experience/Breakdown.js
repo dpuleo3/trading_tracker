@@ -22,7 +22,7 @@ function Breakdown() {
                     ],
                     datasets: [{
                         label: 'Breakdown',
-                        data: [23, 15, 20, 16, 14, 10],
+                        data: [23, 15, 20, 16, 14, 12],
                         backgroundColor: [
                             '#2196F3a1',
                             '#d1d4dca1',

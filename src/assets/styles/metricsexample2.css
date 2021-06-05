@@ -26,7 +26,7 @@
 .avg-days, .gains-data-table,
 .loss-data-table {
     margin: 30px;
-    width: 95%;
+    width: 100%;
 }
 
 .tables-left-wrapper {
@@ -69,6 +69,10 @@
     color: #ef5350;
 }
 
+.gains {
+    color: #26a69a;
+}
+
 .metrics2-tables-wrapper tbody tr {
     text-align: center;
     border-bottom: 1px solid #131722;
@@ -83,6 +87,33 @@
     padding-bottom: 3px;
 }
 
+.tables-left-wrapper thead th,
 .tables-right-wrapper thead th {
     padding: 5px;
+}
+
+.risk-reward-table {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.risk-reward-table tbody td {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.td-btn {
+    color: #d1d4dc;
+    background-color: #363A45;
+}
+
+.td-btn:hover {
+    background-color: #187acad5;
+    cursor: pointer;
+}
+
+.td-btn:active {
+    background-color: #d1d4dc;
 }

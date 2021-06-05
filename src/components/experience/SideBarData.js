@@ -109,17 +109,17 @@ export const SideBarData = [
     subNav: [
       {
         title: 'MoM',
-        path: '/performance/mom',
+        path: '/drawdown/mom',
         icon: <FaIcons.FaRegCalendarAlt />
       },
       {
         title: 'QoQ',
-        path: '/performance/qoq',
+        path: '/drawdown/qoq',
         icon: <FaIcons.FaRegCalendarAlt />
       },
       {
         title: 'YoY',
-        path: '/performance/yoy',
+        path: '/drawdown/yoy',
         icon: <FaIcons.FaRegCalendarAlt />
       }
     ]

@@ -33,6 +33,14 @@
     font-size: 34px;
 }
 
+.news-input {
+    border-radius: 5px;
+}
+
+.news-input:focus {
+    box-shadow: 0 0 12px 0.8px #131722a1;
+}
+
 .api-wrapper {
     height: 30%;
     width: 80%;
@@ -57,5 +65,6 @@
 
 .news-container > .card {
     border-color: #fff;
-    box-shadow: 5px 5px 5px 5px #13172260;
+    box-shadow: 0 0 12px 0.8px #131722a1;
+
 }
