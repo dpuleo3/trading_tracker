@@ -15,22 +15,17 @@ function IntegrationDescp() {
 
         <div className="integration-descp-container">
             <div className="descp-overview-wrapper">
-                <h2>
+                <h1>
                     Have a great live view of your trading 
-                </h2>
-                <p>
-                    Start using the best tool in the market 
-                    that really helps you achieve the
-                    best performance only you can have
-                </p>
-                <p className="descp-blue">
+                </h1>
+                <h1 className="descp-blue">
                     All the process is automated, you don't have 
                     to do anything!
-                </p>
+                </h1>
             </div>
             <div className="descp-overview-chart">
                 <Bar data={{
-                        labels: ['Basic', 'PRO', 'Company'],
+                        labels: ['Individual', 'PRO', 'Company'],
                         datasets: [
                             {
                             label: 'Average Performance',
@@ -75,7 +70,7 @@ function IntegrationDescp() {
                         <FaIcons.FaChalkboardTeacher />
                     </div>
                     <p> 
-                        Have easy access to all of your operations
+                        Easy access to all of your operations
                     </p>
                 </div>
                 <div className="overview-icon">

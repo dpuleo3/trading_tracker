@@ -4,7 +4,8 @@ import '../App.css';
 import HeroSection from '../components/HeroSection';
 import Cards from '../components/Cards';
 import Quote from '../components/Quote';
-import IntegrationsComp from '../components/IntegrationsComp';
+import Ranking from '../components/Ranking';
+import RankTable from '../components/RankTable';
 
 
 export default function Home () {
@@ -15,7 +16,8 @@ export default function Home () {
             <HeroSection />
             <Cards />
             <Quote />
-            <IntegrationsComp />
+            <Ranking />
+            <RankTable />
 
         </>
     );

@@ -13,7 +13,7 @@ function NewsletterDescp() {
             <div className="news-text-wrapper">
                 <p className="news-text">
                     We focus in sharing our own data 
-                    and market research to anyone
+                    and market research to everyone
                 </p>
             </div>
             <div className="news-phone-wrapper">

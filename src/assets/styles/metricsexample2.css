@@ -35,7 +35,7 @@
 }
 
 .tables-right-wrapper {
-    width: 90%;
+    width: 100%;
     margin-top: 45px;
     margin-left: 20px;
     display: flex;
@@ -49,9 +49,8 @@
     margin-left: 40px;
 }
 
-.gains-data-table,
-.loss-data-table {
-    border-radius: 5px;
+.gains-data {
+    margin-right: 20px;
 }
 
 .avg-days-table {
@@ -66,6 +65,7 @@
 }
 
 .losses {
+    font-size: 16px;
     color: #ef5350;
 }
 
@@ -107,6 +107,7 @@
 .td-btn {
     color: #d1d4dc;
     background-color: #363A45;
+    padding-bottom: 6px;
 }
 
 .td-btn:hover {
@@ -115,5 +116,6 @@
 }
 
 .td-btn:active {
+    color: #fff;
     background-color: #d1d4dc;
 }

@@ -4,24 +4,25 @@
     background-color: #fff;
     position: relative; 
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .quote-background {
     background-color: #131722;
     position: absolute;
-    width: 62%;
-    height: 75%;
-    margin-top: 50px;
-    margin-left: -335px;
+    width: 92.5%;
+    height: 80%;
+    margin-top: 40px;
+    margin-left: 100px;
     z-index: 2;
 }
 
 .description-text {
-    width: 28%;
+    width: 32%;
     position: absolute;
     margin-top: 100px;
-    margin-left: -620px;
+    margin-left: -500px;
     color: #d1d4dc;
     z-index: 3;
 }
@@ -36,7 +37,7 @@
 
 .description-quote {
     position: relative;
-    font-size: 34px;
+    font-size: 35px;
 }
 
 .fa-quote-right {
@@ -52,83 +53,26 @@
     font-size: 25px;
 }
 
-.photos-background-blue {
-    background-color: #2196F3;
-    position: absolute;
-    width: 25%;
-    height: 45%;
-    margin-top: 120px;
-    margin-right: -900px;
-    z-index: 1;
-}
-
-.photos-background-grey {
-    background-color: #d1d4dca1;
-    position: absolute;
-    width: 20%;
-    height: 45%;
-    margin-top: -20px;
-    margin-right: -450px;
-    z-index: 1;
-}
-
-.description-icons {
+.quote-icons-wrapper {
     width: 40%;
-    position: absolute;
-    margin-top: 100px;
-    margin-right: -425px;
-    color: #d1d4dc;
-}
-
-.minervini-photos-wrapper {
-    width: 100%;
-    height: 100%;
+    margin-left: 500px;
     position: relative;
-}
-
-.minervini-books > img {
-    position: absolute;
-    width: 54%;
-    margin-left: 20px;
-    margin-top: -70px;
-
-    z-index: 3;
-}
-
-.minervini-web > img {
-    position: absolute;
-    width: 70%;
-    height: 300px;
-    margin-left: 250px;
-    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 2;
 }
 
-/* .fa-laptop {
+.sheet-icon {
     position: absolute;
-    font-size: 320px;
+    font-size: 400px;
+    color: #fff;
 }
 
-.fa-mobile {
+.pen-icon {
     position: absolute;
-    font-size: 180px;
-    margin-top: 180px;
-    margin-left: 370px;
-}
-
-.fa-chart-line {
-    position: absolute;
-    font-size: 120px;
-    margin-top: 55px;
-    margin-left: 135px;
+    font-size: 185px;
     color: #2196F3;
+    margin-right: -250px;
+    margin-top: -150px;
 }
-
-.fa-lightbulb {
-    position: absolute;
-    z-index: 2;
-    font-size: 70px;
-    margin-top: 220px;
-    margin-left: 403px;
-    color: #2196F3;
-} */

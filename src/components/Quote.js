@@ -1,8 +1,9 @@
 import React from 'react'
 import '../assets/styles/quote.css'
 
-import minervini from "../assets/images/minervini.jpg"
-import minervini2 from "../assets/images/minervini2.jpg"
+import * as BiIcons from 'react-icons/bi';
+import * as RiIcons from 'react-icons/ri';
+
 
 
 function Quote() {
@@ -25,25 +26,10 @@ function Quote() {
                     <a href="https://minervini.com/home.php" target="-blank">- Mark Minervini</a>
                 </p>
             </div>
-
-            <span className="photos-background-blue" />
-            <span className="photos-background-grey" />
-
-            <div className="description-icons">
-                <div className="minervini-photos-wrapper">
-                    <div className="minervini-books">
-                        <img src={minervini} alt="minervini"/>
-                    </div>
-                    <div className="minervini-web">
-                        <img src={minervini2}  alt="minervini2"/>
-                    </div>
-                </div>
-                {/* <i class="fas fa-laptop"></i>
-                <i class="fas fa-mobile"></i>
-                <i class="fas fa-chart-line"></i>
-                <i class="fas fa-lightbulb"></i> */}
+            <div className="quote-icons-wrapper">
+                <BiIcons.BiSpreadsheet className="sheet-icon"/>
+                <RiIcons.RiQuillPenFill className="pen-icon"/>
             </div>
-
         </div>
 
     );

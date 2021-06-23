@@ -1,10 +1,24 @@
-import React from 'react'
-import './../../assets/styles/metricsexample2.css'
+import React, {useState} from 'react';
+
+import { RatioBtn } from './RatioBtn';
+import { RatioInput } from './RatioInput';
+
+import './../../assets/styles/metricsexample2.css';
 
 
 
 function RiskMgmt() {
-    
+
+    const [result, setResult] = useState("");
+
+    const MultiRatio = (e) => {
+        setResult(result.concat(e.target.name));
+    }
+
+    const clear = () => {
+        setResult("");
+    }
+
     return (
         
         <div className="metrics2-contaner">
@@ -14,25 +28,29 @@ function RiskMgmt() {
                     <table className="risk-reward-table">
                         <thead>
                             <tr>
-                                <th colspan="2">Risk/Reward Ratios</th>
+                                <th>Risk : Reward Ratios</th>
                             </tr>
                         </thead>
-                    <tbody>
+                        <tbody>
                             <tr>
-                                <td className="td-btn">Show</td>
-                                <td>1:2</td>
+                                <RatioBtn onClick={MultiRatio} name="2" buttonStyle='td-btn'>
+                                    2 : 1
+                                </RatioBtn>
                             </tr>
                             <tr>
-                                <td className="td-btn">Show</td>
-                                <td>1:3</td>
+                                <RatioBtn onClick={MultiRatio} name="3" buttonStyle='td-btn'>
+                                    3 : 1
+                                </RatioBtn>
                             </tr>
                             <tr>
-                                <td className="td-btn">Show</td>
-                                <td>1:4</td>
+                                <RatioBtn onClick={MultiRatio} name="4" buttonStyle='td-btn'>
+                                    4 : 1
+                                </RatioBtn>
                             </tr>
                             <tr>
-                                <td className="td-btn">Show</td>
-                                <td>1:5</td>
+                                <RatioBtn onClick={MultiRatio} name="5" buttonStyle='td-btn'>
+                                    5 : 1
+                                </RatioBtn>
                             </tr>
                         </tbody>
                     </table>
@@ -76,60 +94,84 @@ function RiskMgmt() {
                                     <td>$59.55</td>
                                     <td>5</td>
                                     <td>$54.78</td>
-                                     <td className="losses">8.00%</td>
-                                    <td>$23.85</td>
-                                    <td className="gains"></td>
-                                    <td></td>
+                                    <td id="risk-%" className="losses">8.00%</td>
+                                    <td id="risk-$">$23.85</td>
+                                    <td>
+                                        <RatioInput value={result} buttonStyle="gains" />
+                                    </td>
+                                    <td>
+                                        <RatioInput value={result} buttonStyle="gains" />
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>GBTC</td>
                                     <td>$7.51</td>
                                     <td>6</td>
                                     <td>$6.79</td>
-                                    <td className="losses">9.50%</td>
-                                    <td>$4.32</td>
-                                    <td className="gains"></td>
-                                    <td></td>
+                                    <td id="risk-%" className="losses">9.50%</td>
+                                    <td id="risk-$">$4.32</td>
+                                    <td>
+                                        <RatioInput value={result} buttonStyle="gains" />
+                                    </td>
+                                    <td>
+                                        <RatioInput value={result} buttonStyle="gains" />
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>NFLX</td>
                                     <td>$377.72</td>
                                     <td>1</td>
                                     <td>$351.09</td>
-                                    <td className="losses">7.05%</td>
-                                    <td>$26.63</td>
-                                    <td className="gains"></td>
-                                    <td></td>
+                                    <td id="risk-%" className="losses">7.05%</td>
+                                    <td id="risk-$">$26.63</td>
+                                    <td>
+                                        <RatioInput value={result} buttonStyle="gains" />
+                                    </td>
+                                    <td>
+                                        <RatioInput value={result} buttonStyle="gains" />
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>FFTY</td>
                                     <td>$28.03</td>
                                     <td>5</td>
                                     <td>$26.11</td>
-                                    <td className="losses">6.85%</td>
-                                    <td>$9.6</td>
-                                    <td className="gains"></td>
-                                    <td></td>
+                                    <td id="risk-%" className="losses">6.85%</td>
+                                    <td id="risk-$">$9.6</td>
+                                    <td>
+                                        <RatioInput value={result} buttonStyle="gains" />
+                                    </td>
+                                    <td>
+                                        <RatioInput value={result} buttonStyle="gains" />
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>CGW</td>
                                     <td>$32.19</td>
                                     <td>4</td>
                                     <td>$30.30</td>
-                                    <td className="losses">5.87%</td>
-                                    <td>$7.56</td>
-                                    <td className="gains"></td>
-                                    <td></td>
+                                    <td id="risk-%" className="losses">5.87%</td>
+                                    <td id="risk-$">$7.56</td>
+                                    <td>
+                                        <RatioInput value={result} buttonStyle="gains" />
+                                    </td>
+                                    <td>
+                                        <RatioInput value={result} buttonStyle="gains" />
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>DIS</td>
                                     <td>$101.14</td>
                                     <td>3</td>
                                     <td>$84.26</td>
-                                    <td className="losses">8.02%</td>
-                                    <td>$50.63</td>
-                                    <td className="gains"></td>
-                                    <td></td>
+                                    <td id="risk-%" className="losses">8.02%</td>
+                                    <td id="risk-$">$50.63</td>
+                                    <td>
+                                        <RatioInput value={result} buttonStyle="gains" />
+                                    </td>
+                                    <td>
+                                        <RatioInput value={result} buttonStyle="gains" />
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>-</td>

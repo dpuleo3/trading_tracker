@@ -33,12 +33,13 @@
 .balance-breakdown,
 .portfolio-stats {
     width: 45%;
+    z-index: 2;
 }
 
 .portfolio-stats, 
 .portfolio-balances {
     margin-right: 20px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .portfolio-stats tbody tr, 
@@ -53,8 +54,6 @@ th {
     font-weight: bold;
     font-size: 1.2em;
 }
-
-
 
 td {
     text-align: center;

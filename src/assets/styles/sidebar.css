@@ -14,18 +14,19 @@
 
 .horizontal-sidebar-nav {
     background-color: #131722;
-    height: 60px;
+    height: 50px;
     width: 95%;
     margin-top: 10px;
     margin-left: 40px;  
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .horizontal-sidebar-tags-wrapper {
     color: #d1d4dc;
-    margin-left: 32rem;
+    margin-left: 30rem;
     display: flex;
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../assets/styles/experiencedescp.css'
 import phones from "../assets/images/phones.png"
 
 import * as FaIcons from 'react-icons/fa';
@@ -6,7 +7,7 @@ import * as BiIcons from 'react-icons/bi';
 import * as HiIcons from 'react-icons/hi';
 import * as MdIcons from 'react-icons/md';
 
-import '../assets/styles/experiencedescp.css'
+
 
 function ExperienceDescp() {
     return (
