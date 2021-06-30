@@ -8,7 +8,7 @@ import SuperSection from '../components/experience/SuperSection';
 import SideBar from '../components/experience/SideBar';
 
 import { SideBarData } from '../components/experience/SideBarData';
-import { NavBarData } from '../components/experience/NavBarData';
+// import { NavBarData } from '../components/experience/NavBarData';
 
 import Dashboard from '../components/experience/Dashboard';
 import Positions from '../components/experience/Positions';

@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import { RatioBtn } from './RatioBtn';
-import { RatioInput } from './RatioInput';
+// import { RatioInput } from './RatioInput';
 
 import './../../assets/styles/metricsexample2.css';
 
@@ -9,15 +9,12 @@ import './../../assets/styles/metricsexample2.css';
 
 function RiskMgmt() {
 
-    const [result, setResult] = useState("");
+    // const [result, setResult] = useState(setResult);
 
-    const MultiRatio = (e) => {
-        setResult(result.concat(e.target.name));
-    }
+    // const MultiRatio = (e) => {
+    //     setResult();
+    // }
 
-    const clear = () => {
-        setResult("");
-    }
 
     return (
         
@@ -33,22 +30,22 @@ function RiskMgmt() {
                         </thead>
                         <tbody>
                             <tr>
-                                <RatioBtn onClick={MultiRatio} name="2" buttonStyle='td-btn'>
+                                <RatioBtn onClick={""} name="2" buttonStyle='td-btn'>
                                     2 : 1
                                 </RatioBtn>
                             </tr>
                             <tr>
-                                <RatioBtn onClick={MultiRatio} name="3" buttonStyle='td-btn'>
+                                <RatioBtn onClick={""} name="3" buttonStyle='td-btn'>
                                     3 : 1
                                 </RatioBtn>
                             </tr>
                             <tr>
-                                <RatioBtn onClick={MultiRatio} name="4" buttonStyle='td-btn'>
+                                <RatioBtn onClick={""} name="4" buttonStyle='td-btn'>
                                     4 : 1
                                 </RatioBtn>
                             </tr>
                             <tr>
-                                <RatioBtn onClick={MultiRatio} name="5" buttonStyle='td-btn'>
+                                <RatioBtn onClick={""} name="5" buttonStyle='td-btn'>
                                     5 : 1
                                 </RatioBtn>
                             </tr>
@@ -96,11 +93,11 @@ function RiskMgmt() {
                                     <td>$54.78</td>
                                     <td id="risk-%" className="losses">8.00%</td>
                                     <td id="risk-$">$23.85</td>
-                                    <td>
-                                        <RatioInput value={result} buttonStyle="gains" />
+                                    <td className="gains">
+                                        16%{/* <RatioInput value={result} buttonStyle="gains" /> */}
                                     </td>
                                     <td>
-                                        <RatioInput value={result} buttonStyle="gains" />
+                                        $69.08{/* <RatioInput value={result} buttonStyle="gains" /> */}
                                     </td>
                                 </tr>
                                 <tr>
@@ -110,11 +107,11 @@ function RiskMgmt() {
                                     <td>$6.79</td>
                                     <td id="risk-%" className="losses">9.50%</td>
                                     <td id="risk-$">$4.32</td>
-                                    <td>
-                                        <RatioInput value={result} buttonStyle="gains" />
+                                    <td className="gains">
+                                        19%{/* <RatioInput value={result} buttonStyle="gains" /> */}
                                     </td>
                                     <td>
-                                        <RatioInput value={result} buttonStyle="gains" />
+                                        $8.94{/* <RatioInput value={result} buttonStyle="gains" /> */}
                                     </td>
                                 </tr>
                                 <tr>
@@ -124,11 +121,11 @@ function RiskMgmt() {
                                     <td>$351.09</td>
                                     <td id="risk-%" className="losses">7.05%</td>
                                     <td id="risk-$">$26.63</td>
-                                    <td>
-                                        <RatioInput value={result} buttonStyle="gains" />
+                                    <td className="gains">
+                                        14.10%{/* <RatioInput value={result} buttonStyle="gains" /> */}
                                     </td>
                                     <td>
-                                        <RatioInput value={result} buttonStyle="gains" />
+                                        $430.98{/* <RatioInput value={result} buttonStyle="gains" /> */}
                                     </td>
                                 </tr>
                                 <tr>
@@ -138,11 +135,11 @@ function RiskMgmt() {
                                     <td>$26.11</td>
                                     <td id="risk-%" className="losses">6.85%</td>
                                     <td id="risk-$">$9.6</td>
-                                    <td>
-                                        <RatioInput value={result} buttonStyle="gains" />
+                                    <td className="gains">
+                                        13.7%{/* <RatioInput value={result} buttonStyle="gains" /> */}
                                     </td>
                                     <td>
-                                        <RatioInput value={result} buttonStyle="gains" />
+                                        $31.87{/* <RatioInput value={result} buttonStyle="gains" /> */}
                                     </td>
                                 </tr>
                                 <tr>
@@ -152,11 +149,11 @@ function RiskMgmt() {
                                     <td>$30.30</td>
                                     <td id="risk-%" className="losses">5.87%</td>
                                     <td id="risk-$">$7.56</td>
-                                    <td>
-                                        <RatioInput value={result} buttonStyle="gains" />
+                                    <td className="gains">
+                                        11.74%{/* <RatioInput value={result} buttonStyle="gains" /> */}
                                     </td>
                                     <td>
-                                        <RatioInput value={result} buttonStyle="gains" />
+                                        $35.97{/* <RatioInput value={result} buttonStyle="gains" /> */}
                                     </td>
                                 </tr>
                                 <tr>
@@ -166,11 +163,11 @@ function RiskMgmt() {
                                     <td>$84.26</td>
                                     <td id="risk-%" className="losses">8.02%</td>
                                     <td id="risk-$">$50.63</td>
-                                    <td>
-                                        <RatioInput value={result} buttonStyle="gains" />
+                                    <td className="gains">
+                                        16.04%{/* <RatioInput value={result} buttonStyle="gains" /> */}
                                     </td>
                                     <td>
-                                        <RatioInput value={result} buttonStyle="gains" />
+                                        $117.36{/* <RatioInput value={result} buttonStyle="gains" /> */}
                                     </td>
                                 </tr>
                                 <tr>

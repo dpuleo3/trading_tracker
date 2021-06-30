@@ -21,7 +21,7 @@ function Ranking() {
                 <div className="rank-card">
                     <div className="rank-two">
                         <h2>2nd</h2>
-                        <img src={cummings} alt="picture" className="cummings-img" />
+                        <img src={cummings} alt="" className="cummings-img" />
                         <p>Brandon Warnock</p>
                         <h4 className="gains"> + 114.4%</h4>
                     </div>
@@ -29,7 +29,7 @@ function Ranking() {
                 <div className="rank-card">
                     <div className="rank-one">
                         <FaIcons.FaCrown className="crown-icon"/>
-                        <img src={faux} alt="picture" className="faux-img" />
+                        <img src={faux} alt="" className="faux-img" />
                         <p>Gordon Faux</p>
                         <h4 className="gains">+ 117.9%</h4>
                     </div>

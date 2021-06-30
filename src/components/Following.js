@@ -18,7 +18,7 @@ function Following() {
                 <div className="follow-text-wrapper">
                     <p className="follow-text">
                         Connect with other traders and share insights
-                        by choosing who to follow and who follows
+                        by choosing who to follow and who follows you
                     </p>
                 </div>
                 <div className="follow-pop">
